@@ -4,12 +4,32 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A01_1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A02_1/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Test/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A03_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A03_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A03_3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A03_4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A04_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A04_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A04_3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A04_4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A04_5/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A05_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A05_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A06_1/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A01_1/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A02_1/target" />
-      <excludeFolder url="file://$MODULE_DIR$/Test/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A03_1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A03_2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A03_3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A03_4/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A04_1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A04_2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A04_3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A04_4/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A04_5/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A05_1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A05_2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A06_1/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
