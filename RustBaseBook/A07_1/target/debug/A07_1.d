@@ -1,0 +1,1 @@
+/home/lxy/rust/rust-note/RustBaseBook/A07_1/target/debug/A07_1: /home/lxy/rust/rust-note/RustBaseBook/A07_1/src/garden/vegetables.rs /home/lxy/rust/rust-note/RustBaseBook/A07_1/src/garden.rs /home/lxy/rust/rust-note/RustBaseBook/A07_1/src/main.rs

@@ -43,6 +43,7 @@ fn main() {
         username:String::from("username3"),
         // password:String::from("password"),
         // 如果更新的内容设计非栈数据，user2将不能在之后使用，因为   其user2的所有权被移动
+        age:12,
         ..user2  
         
     };
