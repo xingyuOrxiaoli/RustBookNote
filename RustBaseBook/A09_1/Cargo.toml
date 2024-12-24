@@ -1,0 +1,12 @@
+[package]
+name = "A09_1"
+version = "0.1.0"
+edition = "2021"
+
+#那么程序所使用的内存需要由操作系统来清理。如果你需要项目的最终二进制文件越
+#小越好，panic 时通过在 Cargo.toml 的 [profile] 部分增加 panic = 'abort' ，可
+#以由展开切换为终止。例如，如果你想要在 release 模式中 panic 时直接终止：
+[profile.release]
+panic = "abort"
+
+[dependencies]
