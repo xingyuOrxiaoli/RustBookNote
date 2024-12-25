@@ -1,0 +1,6 @@
+[package]
+name = "A12_1_IO"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
