@@ -28,6 +28,10 @@
       <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A10_1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A10_2_trait/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A10_3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A11_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A11_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A11_3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustBaseBook/A11_3/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A01_1/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A02_1/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A03_1/target" />
@@ -54,6 +58,9 @@
       <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A10_1/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A10_2_trait/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A10_3/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A11_1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A11_2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustBaseBook/A11_3/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
