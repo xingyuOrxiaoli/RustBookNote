@@ -56,6 +56,13 @@ impl Inventory{
 }
 
 
+// 测试slice上的标准库方法sort_by_key 准备
+#[derive(Debug)]
+struct Rectangle{
+    width: u32,
+    height: u32,
+}
+
 
 fn main() {
     println!(" 迭代器与   闭包!");
@@ -106,9 +113,33 @@ fn main() {
         .join()
         .unwrap();
     println!(" ===== 将被捕获的值移除闭包和 fn trait =====");
-    println!("\t 1.FnOnce 适用于只能被调用一次的闭包");
-    println!("\t 2.FnMut  适用于不会将捕获的值移出闭包体，但可能会修改捕获值的闭包。");
-    println!("\t 3.Fn 适用于既不将捕获的值移出闭包体，也不修改捕获值的闭包，同时也包括不从环境中捕获任何值的闭包。")
+    println!("\t 1.FnOnce 适用于只能被调用一次的闭包     => unwrap_or_else()");
+    println!("\t 2.FnMut  适用于不会将捕获的值移出闭包体，但可能会修改捕获值的闭包。 => sort_by_key");
+    println!("\t 3.Fn 适用于既不将捕获的值移出闭包体，也不修改捕获值的闭包，同时也包括不从环境中捕获任何值的闭包。");
+    
+    let mut list = [
+        Rectangle{width:10 , height:1},
+        Rectangle{width:3 , height:5},
+        Rectangle{width:7 , height:12},
+    ];
+    list.sort_by_key(|r| r.width);
+    println!("{:?}",list);
 
+    println!(" ================== 使用迭代器处理元素序列 =======================");
+    let v1 = vec![1,2,3];
+    let v1_iter = v1.iter();
+    for val in v1_iter{
+        println!("v1_iter = {:?}",val);
+    }
+    
+    println!(" ================== 产生其他迭代器的方法 =======================");
+    // 产生其他迭代器的方法 
+    // 不会消费当前迭代器，而是通过改变原始迭代器的某些方面来生成不同的迭代器
+    let v1 :Vec<i32> = vec![1,2,3];
+    let v2 :Vec<_> = v1.iter().map(|x| x + 1 ).collect();
+    println!("v1 = {v1:?}");
+    println!("v2 = {v2:?}");
+    assert_eq!(v2 , vec![2,3,4]);
+    
 
 }

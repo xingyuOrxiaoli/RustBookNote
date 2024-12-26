@@ -9,15 +9,20 @@ fn main() {
     // 读取命令行参数值
     // std::env::args 再起任何参数无效Unicode字符时会panic
     // 如果需要接收Unicode 可以使用 std::env::args_os  返回值是OsString 值而不是String值。
-    let args :Vec<String> = env::args().collect();
+    // let args :Vec<String> = env::args().collect();
 
     // let config  = parse_config(&args);
     // let config = Config::new(&args);
-    let config = Config::build(&args).unwrap_or_else(|error|{
+    // let config = Config::build(&args).unwrap_or_else(|error|{
+    //     println!("Config error: {}", error);
+    //     process::exit(1);
+    // });
+
+    // 使用第十三章的迭代器优化
+    let config = Config::build(env::args()).unwrap_or_else(|error|{
         println!("Config error: {}", error);
         process::exit(1);
     });
-
 
     println!("query: {}", config.query);
     println!("file_path: {}", config.file_path);
